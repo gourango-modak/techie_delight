@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techie Delight</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="main-nav">
+          <div class="header__title text-center">
+            <h1>Techie delight &lt/&gt</h1>
+            <p>Ace your coding interview</p>
+          </div>
+          <div class="nav-bar-icon" onclick="toggleDisplayClass('nav__items')">
+            <i class="fas fa-bars"></i>
+          </div>
+          <ul class="nav__items toggle">
+            <li class="nav__item">
+              <a href="" class="nav-link">All problems</a>
+            </li>
+            <li class="nav__item"><a href="" class="nav-link">Array</a></li>
+            <li class="nav__item tree-nav">
+              <div
+                class="tree__nav--ctn"
+                onclick="toggleDisplayClass('tree-nav-items')"
+              >
+                Tree<i class="fas fa-caret-down float-right"></i>
+              </div>
+              <ul class="tree-nav-items toggle">
+                <li class="tree__item">
+                  <a href="" class="tree-nav-link">Binary tree</a>
+                </li>
+                <li class="tree__item">
+                  <a href="" class="tree-nav-link">BST</a>
+                </li>
+                <li class="tree__item">
+                  <a href="" class="tree-nav-link">Trie</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item"><a href="" class="nav-link">linklist</a></li>
+            <li class="nav__item"><a href="" class="nav-link">Dp</a></li>
+            <li class="nav__item"><a href="" class="nav-link">Graph</a></li>
+            <li class="nav__item">
+              <a href="" class="nav-link">backtracking</a>
+            </li>
+            <li class="nav__item"><a href="" class="nav-link">matrix</a></li>
+            <li class="nav__item"><a href="" class="nav-link">heap</a></li>
+            <li class="nav__item"><a href="" class="nav-link">string</a></li>
+            <li class="nav__item"><a href="" class="nav-link">sorting</a></li>
+            <li class="nav__item"><a href="" class="nav-link">stack</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="main-content">
+        <article class="problems">
+          <div class="problem">
+            <h1>Lorem ipsum dolor sit amet consectet</h1>
+            <div class="level-tag">
+              <span class="problem-level green">Easy</span>
+              <span class="problem-tag"
+                ><i class="fas fa-tags problem-tag-icon"></i>binary tree</span
+              >
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae vero iusto dolorem eveniet, quibusdam ex eum facere,
+              accusantium libero pariatur, quam facilis ipsam non culpa
+              delectus. Ipsum asperiores dicta optio?
+            </p>
+          </div>
+          <div class="problem">
+            <h1>Lorem ipsum dolor sit amet consectet</h1>
+            <div class="level-tag">
+              <span class="problem-level red">Hard</span>
+              <span class="problem-tag"
+                ><i class="fas fa-tags problem-tag-icon"></i>binary tree</span
+              >
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae vero iusto dolorem eveniet, quibusdam ex eum facere,
+              accusantium libero pariatur, quam facilis ipsam non culpa
+              delectus. Ipsum asperiores dicta optio?
+            </p>
+          </div>
+          <div class="problem">
+            <h1>Lorem ipsum dolor sit amet consectet</h1>
+            <div class="level-tag">
+              <span class="problem-level blue">Medium</span>
+              <span class="problem-tag"
+                ><i class="fas fa-tags problem-tag-icon"></i>binary tree</span
+              >
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae vero iusto dolorem eveniet, quibusdam ex eum facere,
+              accusantium libero pariatur, quam facilis ipsam non culpa
+              delectus. Ipsum asperiores dicta optio?
+            </p>
+          </div>
+        </article>
+        <div class="pagination-bars">
+          <div class="pagination">
+            <i class="fas fa-caret-left pagination-left-bar pagination-bar"></i>
+            <span class="pagination-bar active">1</span
+            ><span class="pagination-bar">2</span
+            ><span class="pagination-bar">3</span
+            ><span class="pagination-bar">4</span
+            ><span class="pagination-bar">5</span>
+            <i
+              class="fas fa-caret-right pagination-right-bar pagination-bar"
+            ></i>
+          </div>
+        </div>
+      </div>
+
+      <footer class="main-footer">
+        <div class="description">
+          <p class="text-center">Gourango Modak @2021 All Right Resevered.</p>
+        </div>
+        <div class="footer-nav-bar">
+          <ul class="footer-nav-items">
+            <li class="footer-nav-item"><a href="">Privacy Policy</a></li>
+            <li class="footer-nav-item"><a href="">contact us</a></li>
+            <li class="footer-nav-item"><a href="">Useful tools</a></li>
+            <li class="footer-nav-item"><a href="">online compiler/IDE</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      function toggleDisplayClass(className) {
+        let toggleClass = document.getElementsByClassName(className)[0];
+        toggleClass.classList.toggle("toggle");
+        if (className == "tree-nav-items") {
+          let treeNav = document.getElementsByClassName("tree-nav")[0];
+          if (treeNav.style.border == "none")
+            treeNav.style.borderBottom = "1px solid #a6b1bc";
+          else treeNav.style.border = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
